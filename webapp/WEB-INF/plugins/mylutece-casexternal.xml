@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plug-in>
+	<name>mylutece-casexternal</name>
+	<class>fr.paris.lutece.plugins.mylutece.modules.casexternal.service.CASExternalPlugin</class>
+	<version>1.0.0</version>
+	<description>module.mylutece.casexternal.module.description</description>
+	<documentation></documentation>
+	<installation></installation>
+	<changes></changes>
+	<user-guide></user-guide>
+	<provider>module.mylutece.casexternal.module.provider</provider>
+	<provider-url>http://lutece.paris.fr</provider-url>
+	<icon-url>images/admin/skin/plugins/mylutece/mylutece.png</icon-url>
+	<copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+		<core-version-dependency>
+		<min-core-version>2.4.1</min-core-version>
+		<max-core-version></max-core-version>	
+	</core-version-dependency>
+	
+	<!-- if the plugin must have a connection pool with parameter : 1 - yes, 0 - no -->
+	<db-pool-required>0</db-pool-required>
+	<!-- http://www.ja-sig.org/products/cas/client/javaclient/ -->
+	<!--filters>
+  <filter>
+	<filter-name>CAS External Authentication Filter</filter-name>
+  	<filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
+	<init-param>
+		<param-name>casServerLoginUrl</param-name>
+		<param-value>http://dsti-29293.stations.paris.mdp:8080/cas/login</param-value>
+	</init-param>
+  </filter>
+		<filter>
+			<filter-name>CAS External Validate Filter</filter-name>
+			<url-pattern>/jsp/site/plugins/mylutece/DoMyLuteceLogin.jsp</url-pattern>
+      <filter-class>org.jasig.cas.client.validation.Saml11TicketValidationFilter</filter-class>
+        <init-param>
+            <param-name>casServerUrlPrefix</param-name>
+            <param-value>http://dsti-29293.stations.paris.mdp:8080/cas</param-value>
+        </init-param>
+        <init-param>
+            <param-name>serverName</param-name>
+            <param-value>http://dsti-29293.stations.paris.mdp:8080</param-value>
+        </init-param>
+        <init-param>
+            <param-name>redirectAfterValidation</param-name>
+            <param-value>true</param-value>
+        </init-param>
+		</filter>
+    <filter>
+    	<filter-name>CAS External HttpServletRequest Wrapper Filter</filter-name>
+    	<filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>
+    </filter>
+	</filters-->
+</plug-in>
