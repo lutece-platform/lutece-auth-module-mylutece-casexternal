@@ -46,7 +46,7 @@
   
   <properties>
 	  <componentName>mylutece-casexternal</componentName>
-      <jiraProjectName>MYLUTECECASEXTERNAL-1</jiraProjectName>
+      <jiraProjectName>MYLUTECECASEXTERNAL</jiraProjectName>
       <jiraComponentId>10422</jiraComponentId>
   </properties>
   
