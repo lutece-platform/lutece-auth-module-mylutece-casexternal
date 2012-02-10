@@ -158,7 +158,7 @@ public class CASExternalAuthentication extends ExternalAuthentication
 		}
 
                 //TODO
-                //bouchon à supprimer lorsque la direction et la notion de management sera dans l'IAM
+                //bouchon Ã  supprimer lorsque la direction et la notion de management sera dans l'IAM
                 strUserDir = AppPropertiesService.getProperty( PROPERTY_USER_DIRECTION );
                 strUserRole = AppPropertiesService.getProperty( PROPERTY_USER_ROLE );
 
